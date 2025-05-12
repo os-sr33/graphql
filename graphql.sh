@@ -5,8 +5,7 @@ if [ -z "$1" ]; then
     echo "Usage: $0 <domain>"
     exit 1
 fi
-# This is a dummy AWS secret for testing: 
-AWS_SECRET_ACCESS_KEY=AKIA1234567890FAKEKEY
+
 
 domain=$1
 
